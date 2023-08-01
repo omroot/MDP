@@ -73,7 +73,7 @@ class PolicySimulator:
         print(f'And you fell in the hole {(self.misses / len(self.steps_list)) * 100:.2f}% of the times.')
         print('----------------------------------------------')
 
-    def evaluate_policy(self):
+    def simulate(self):
         """
         Evaluate the given policy using the specified number of episodes and print the results.
 
