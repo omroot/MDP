@@ -1,7 +1,6 @@
 import gym
 
 def frozen_lake(seed):
-    """Defined in :numref:`sec_utils`"""
     # See https://www.gymlibrary.dev/environments/toy_text/frozen_lake/ to learn more about this env
     # How to process env.P.items is adpated from https://sites.google.com/view/deep-rl-bootcamp/labs
 
@@ -31,7 +30,6 @@ def frozen_lake(seed):
 
     return env_info
 def make_env(name ='', seed=0):
-    """Defined in :numref:`sec_utils`"""
     # Input parameters:
     # name: specifies a gym environment.
     # For Value iteration, only FrozenLake-v1 is supported.
